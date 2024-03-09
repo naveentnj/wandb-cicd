@@ -12,8 +12,8 @@ import params
 from utils import get_predictions, create_iou_table, MIOU, BackgroundIOU, \
                   RoadIOU, TrafficLightIOU, TrafficSignIOU, PersonIOU, VehicleIOU, BicycleIOU, t_or_f
 # defaults
-default_config = SimpleNamespace(
-    framework="fastai",
+default_config = SimpleNamespa(
+    framework="fast",
     img_size=180, #(180, 320) in 16:9 proportions,
     batch_size=8, #8 keep small in Colab to be manageable
     augment=True, # use data augmentation
