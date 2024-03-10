@@ -7,7 +7,7 @@ def test_train():
         img_size=30, # small size for the smoke test
         batch_size=5, # low bs to fit on CPU if needed
         augment=True, # use data augmentation
-        epochs=1,
+        epochs=2,
         lr=2e-3,
         pretrained=True,  # whether to use pretrained encoder,
         mixed_precision=True, # use automatic mixed precision
